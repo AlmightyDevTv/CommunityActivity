@@ -2,7 +2,9 @@ package com.patterson.dsmith.communityactivity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 
@@ -14,8 +16,11 @@ public class MainActivity extends AppCompatActivity {
 
     Button login;
     TextView username;
-    Button nextButton;
-    Button submit;
+    RadioButton basketball;
+    RadioButton FlagFootball;
+    RadioButton Volleyball;
+    RadioButton tennis;
+    RadioButton soccer;
 
 
     @Override
@@ -27,5 +32,9 @@ public class MainActivity extends AppCompatActivity {
         username = (TextView) findViewById(R.id.username);
 
 
+        {
+
+
+        }
     }
 }
